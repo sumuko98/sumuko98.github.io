@@ -1,2 +1,3 @@
-title: Ege Okumus - Bioinformatics | Computational Biology | Proteomics | Genomics
-theme: minima
+title: Ege Okumus - Bioinformatics Portfolio
+baseurl: "" # leave this blank for user.github.io sites
+theme: jekyll-theme-cayman
