@@ -1,10 +1,24 @@
 ---
 layout: default
-title: Home
+title: Homebase // Ege Okumus
 ---
 
-# Welcome to my bioinformatics site!
+<div class="hero-section">
+    <div class="hero-text">
+        <h1 class="main-title">EGE OKUMUS</h1>
+        <p class="subtitle">BIOINFORMATICS & DATA SCULPTOR</p>
+    </div>
+    <nav class="main-nav">
+        <a href="{{ '/about/' | relative_url }}" class="nav-button">ABOUT</a>
+        <a href="{{ '/projects/' | relative_url }}" class="nav-button">PROJECTS</a>
+        <a href="https://github.com/sumuko98" target="_blank" class="nav-button">GITHUB</a>
+        </nav>
+</div>
 
-Hello, I’m a researcher specializing in proteomics. Recently, I developed an **R Shiny app** for the analysis of **proteomics data**, specifically designed to **visualize differentially expressed proteins**.
-
-Stay tuned for blog posts, project updates, and tools.
+<div class="content-section">
+    <p class="placeholder-text">
+        Loading Bio-Synthetics...
+        <br>
+        Accessing Data Stream...
+    </p>
+</div>
