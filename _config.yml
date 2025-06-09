@@ -1,3 +1,16 @@
-title: Ege Okumus - Bioinformatics Portfolio
-baseurl: "" # leave this blank for user.github.io sites
-theme: jekyll-theme-cayman
+# _config.yml
+title: Ege Okumus - Bioinformatics Portfolio # Your main title
+baseurl: "" # Keep this blank for user.github.io sites
+theme: jekyll-theme-minimal # We'll start with minimal or no theme to avoid conflicts
+                              # If you prefer to remove the 'theme' line entirely, that's fine too.
+show_downloads: false # Set to false if you want to avoid extra theme elements
+
+# We'll use a custom collection for projects
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Other settings you might add later:
+# plugins:
+#   - jekyll-feed # If you want an RSS feed
