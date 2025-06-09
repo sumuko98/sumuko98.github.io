@@ -6,7 +6,7 @@ title: Homebase // Ege Okumus
 <div class="hero-section">
     <div class="hero-text">
         <h1 class="main-title">EGE OKUMUS</h1>
-        <p class="subtitle">BIOINFORMATICS & DATA SCULPTOR</p>
+        <p class="subtitle">BIOINFORMATICS</p>
     </div>
     <nav class="main-nav">
         <a href="{{ '/about/' | relative_url }}" class="nav-button">ABOUT</a>
