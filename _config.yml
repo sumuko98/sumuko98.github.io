@@ -1,16 +1,17 @@
 # _config.yml
-title: Ege Okumus - Bioinformatics Portfolio # Your main title
-baseurl: "" # Keep this blank for user.github.io sites
-theme: jekyll-theme-minimal # We'll start with minimal or no theme to avoid conflicts
-                              # If you prefer to remove the 'theme' line entirely, that's fine too.
-show_downloads: false # Set to false if you want to avoid extra theme elements
+title: Ege Okumus - Bioinformatics Portfolio
+baseurl: ""
+# Sass/SCSS configuration
+sass:
+  sass_dir: _sass          # Default location for SCSS files, though assets/css works too
+  style: compressed        # Compresses the CSS for production, or use 'expanded' for debugging
+                           # Note: If your style.scss is directly in assets/css/, this might not be strictly needed,
+                           # but it's good practice. Jekyll usually detects assets/css/style.scss automatically.
 
-# We'll use a custom collection for projects
 collections:
   projects:
     output: true
     permalink: /projects/:path/
 
-# Other settings you might add later:
-# plugins:
-#   - jekyll-feed # If you want an RSS feed
+# Ensure show_downloads is false if it was from cayman theme
+show_downloads: false
